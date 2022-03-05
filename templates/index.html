@@ -2,6 +2,11 @@
 
 {% block content %}
     <article class="media content-section">
-    <h1>Content</h1> 
+    <form method="post" enctype="multipart/form-data">
+        <input type="file" name="file"/>
+        <input type="submit"/>
+    </form>
+    </article>
+
 {% endblock content %}
     
